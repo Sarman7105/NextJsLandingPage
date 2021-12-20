@@ -25,7 +25,7 @@ export default function Footer() {
             </nav>
           </Box>
           <Text sx={styles.footer.copyright}>
-            All rights reserved &copy {new Date().getFullYear} by Sarman
+            {new Date().getFullYear()} All rights reserved by Sarman
           </Text>
         </Box>
       </Container>

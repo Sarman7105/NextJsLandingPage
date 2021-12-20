@@ -22,6 +22,7 @@ export default function Header({ className }) {
               hashSpy={true}
               offset={50}
               duration={500}
+              key={i}
             >
               {menuItem.label}
             </Link>
