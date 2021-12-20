@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
+    "eslint": "^8.5.0",
     "framer-motion": "^2.7.5",
     "globby": "^11.0.0",
     "isomorphic-unfetch": "^3.0.0",
